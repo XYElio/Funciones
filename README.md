@@ -140,7 +140,14 @@ def main():
     ejercicios = {
         "1. Saludo 👋": ui_saludo_simple,
         "2. Calculadora de suma 🧮": ui_suma_dos_numeros,
-        # ... otros ejercicios ...
+        "3. Calculadora de área triangular 📐": ui_area_triangulo,
+        "4. Calculadora de precios con descuento 💰": ui_calculadora_descuento,
+        "5. Suma de una lista 📊": ui_suma_lista,
+        "6. Información de producto 🛒": ui_producto_valores_predeterminados,
+        "7. Números pares e impares 🔢": ui_numeros_pares_impares,
+        "8. Multiplicación múltiple ✖️": ui_multiplicacion_args,
+        "9. Formulario de datos personales 📝": ui_informacion_personal_kwargs,
+        "10. Calculadora 🖩": ui_calculadora_flexible
     }
 
     ejercicio = st.sidebar.selectbox("Selecciona un ejercicio", list(ejercicios.keys()))

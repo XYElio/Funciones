@@ -1,4 +1,4 @@
-# Análisis de Aplicación Python Streamlit
+# Aplicación Python Streamlit
 
 ## Resumen
 
